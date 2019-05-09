@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.admin{
+    min-height: 100vh;
+    display: flex;
+}
+.uno{
+    background: #2E86C1;
+    width: 20%;
+}
+.uno h2, .dos h4{
+    margin: 0px;
+    padding: 3vh;
+    text-align: center;
+    color: white;
+    background: #1F618D;
+}
+.uno h2{
+    font-family: 'molengo';
+    font-size: 20pt;
+    padding: 4vh;
+}
+.dos{
+    width: 80%;
+    background: #F4F6F6;
+}
+.dos h4{
+    font-family: 'pacifico';
+    font-size: 20pt;
+    background: #2E86C1;
+}
+.uno figure{
+    margin-top: 3vh;
+}
+.uno h3{
+    color: white;
+    font-family: 'barlow';
+    text-align: center;
+}
+.uno ul li{
+    border-bottom: solid 2px #F4D03F;
+}
+.uno ul li:first-child{
+    border-top: solid 2px #F4D03F;
+}
+.uno ul li a{
+    color: #FDFEFE;
+    font-family: 'barlow';
+    font-size: 14pt;
+    display: block;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    font-weight: bold;
+}
+.uno ul li a:hover{
+    color: #C0392B;
+}
+#accion1 li a, #accion2 li a{
+    display: block;
+    padding: 1vw 5vw;
+}
