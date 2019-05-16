@@ -6,7 +6,7 @@
   	function conecta(){
   		$val = false;
   		try{
-  			$this->oConexion = new PDO("mysql:host=localhost;dbname=elconchalitodb","","",  array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'")); //USUARIO Y PASSWORD A DEFINIR DESDE ASISTENTE
+  			$this->oConexion = new PDO("mysql:host=localhost;dbname=conchalito","root","171296jon",  array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'")); //USUARIO Y PASSWORD A DEFINIR DESDE ASISTENTE
   			$val = true;
   		}catch(Exception $e){
 			throw $e;

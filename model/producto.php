@@ -45,7 +45,29 @@ function setImg($valor){
 function getImg(){
   return $this->sImg;
 }
+//---------------------------- Obtener todos productos -----------------------------------
 
+  public function ObtenerAll(){
+    $array = null;
+    $oConexion = new conexion();
+    $sQuery = "SELECT * FROM Productos";
+    if($oConexion->conecta()){
+      $oDatos = $oConexion->ejecutaConsulta($sQuery);
+      if($oDatos){
+        for($i = 0;$i < count($oDatos); $i++){
+            $producto = new producto();
+            $producto->setClave($oDatos[$i][0]);
+            $producto->setTipo($oDatos[$i][1]);
+            $producto->setNombre($oDatos[$i][2]);
+            $producto->setTamano($oDatos[$i][3]);
+            $producto->setPrecio($oDatos[$i][4]);
+            $producto->setImg($oDatos[$i][5]);
+            $array[$i] = $producto;
+        }
+      }
+    }
+      return $array;
+  }
 
 
 

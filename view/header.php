@@ -23,7 +23,8 @@
     <link href="../css/styles.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/component.css" />
     <link href="../css/animate.min.css" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="../css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css" />
     <script src="../js/wow.min.js"></script>
     <script>
         new WOW().init();

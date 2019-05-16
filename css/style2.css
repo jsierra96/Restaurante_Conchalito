@@ -38,3 +38,9 @@
     margin-left: 15px;
     width: 70%;
 }
+#error{
+    color: #C0392B;
+    font-family: 'molengo';
+    font-size: 16pt;
+    text-align: center;
+}
